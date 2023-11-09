@@ -62,7 +62,7 @@
                 <input type="text" class="form-control" id="accno" name="accno">
             </div>
             <input type="submit" name="save" class="btn btn-primary" value="save data">
-            <a href="http://localhost/mid_assignment/index.php/Bank/disbank" class="btn btn-secondary">Cancel</a>
+            <a href="http://localhost/Codeigniter-framework-CRUD/index.php/Bank/disbank" class="btn btn-secondary">Cancel</a>
         </form>
     </div>
 </body>

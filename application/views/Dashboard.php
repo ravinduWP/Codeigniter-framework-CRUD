@@ -21,7 +21,7 @@
         <h1>ABC Company</h1> 
         </div>
         <div class="col  d-flex justify-content-end">
-        <a href="http://localhost/mid_assignment/index.php/Bank/savebank" class="btn btn-primary align-self-end m-1" >+ add a bank</a>
+        <a href="http://localhost/Codeigniter-framework-CRUD/index.php/Bank/savebank" class="btn btn-primary align-self-end m-1" >+ add a bank</a>
         </div>
        </div >
             <table class="table table-primary table-striped " >
@@ -29,7 +29,7 @@
                 <tr>
                     <th>NO </th>
                     <th>Bank Name </th>
-                    <th>Branch </th>
+                    <th>Branch </th>    
                     <th>Account No</th>
                     <th>Delete</th>
                     <th>Update</th>
@@ -44,8 +44,8 @@
                         echo "<td>".$row->b_name."</td>";
                         echo "<td>".$row->branch."</td>";
                         echo "<td>".$row->account_no."</td>"; 
-                        echo "<td><a class='btn btn-info'  href='updatebank?id=".$row->id."'>update</a></td>";
-                        echo "<td><a class='btn btn-danger' href='deletebank?id=".$row->id."'>delete</a></td></tr>";
+                        echo "<td><a class='btn btn-info'  href='http://localhost/Codeigniter-framework-CRUD/index.php/Bank/updatebank?id=".$row->id."'>update</a></td>";
+                        echo "<td><a class='btn btn-danger' href='http://localhost/Codeigniter-framework-CRUD/index.php/Bank/deletebank?id=".$row->id."'>delete</a></td></tr>";
                         $i++;
                     }
                     ?>

@@ -64,7 +64,7 @@
                 <input type="text" class="form-control" id="accno" name="accno" value="<?php echo $row->account_no; ?>">
             </div>
             <input type="submit" name="update" class="btn btn-primary" value="update Records">
-            <a href="http://localhost/mid_assignment/index.php/Bank/disbank" class="btn btn-secondary">Cancel</a>
+            <a href="http://localhost/Codeigniter-framework-CRUD/index.php/Bank/disbank" class="btn btn-secondary">Cancel</a>
         </form>
         <?php } ?>
     </div>
