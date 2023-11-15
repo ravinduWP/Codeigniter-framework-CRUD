@@ -26,11 +26,12 @@
             
         }
 
+        //display bank details
         public function disbank(){
             $result['data']=$this->Bank_Model->displayrecords();
             $this->load->view('Dashboard',$result);
         }
-
+        
         public function deletebank(){
             $id=$this->input->get('id');
             $this->Bank_Model->deleterecords($id);
